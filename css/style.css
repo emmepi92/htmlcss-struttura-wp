@@ -18,7 +18,7 @@
     margin: 20px auto;
     width: 75%;
     max-width: 1200px;
-    min-width: 600px;
+    min-width: 500px;
 }
 
 header {
@@ -34,16 +34,13 @@ header {
 }
 
 .float-container {
-    height: 500px;
     background-color: blue;
     margin: 20px;
-
-    /* altezza tolta  */
 }
 
 .float-title {
-    background-color: cornflowerblue;
     height: 80px;
+    background-color: cornflowerblue;
 }
 
 .right-bar,.left-bar {
