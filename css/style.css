@@ -4,7 +4,11 @@
     padding: 0;
 }
 
-.clearfix{
+.fl {
+    float: left;
+}
+
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -19,13 +23,53 @@
 header {
     height: 100px;
     background-color: violet;
+    margin: 20px;
 }
 
 .img-container {
     height: 400px;
     background-color: rgb(245, 221, 84);
+    margin: 20px;
 }
 
 .float-container {
     height: 500px;
+    background-color: blue;
+    margin: 20px;
+}
+
+.float-title {
+    height: 80px;
+    background-color: cornflowerblue;
+}
+
+.right-bar,.left-bar {
+    height: 400px;
+    width: 20%;
+}
+.right-bar {
+    padding: 20px 10px 10px 0;
+
+}
+
+.main {
+    height: 400px;
+    width: 60%;
+    padding: 20px 10px 10px 10px;
+}
+
+.left-bar {
+    padding: 20px 0 10px 10px;
+}
+.content {
+    background-color: cornflowerblue;
+    padding: 15px;
+    height: 360px;
+}
+
+footer {
+    height: 100px;
+    background-color: darkmagenta;
+    margin: 20px;
+
 }
