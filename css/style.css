@@ -37,11 +37,13 @@ header {
     height: 500px;
     background-color: blue;
     margin: 20px;
+
+    /* altezza tolta  */
 }
 
 .float-title {
-    height: 80px;
     background-color: cornflowerblue;
+    height: 80px;
 }
 
 .right-bar,.left-bar {
