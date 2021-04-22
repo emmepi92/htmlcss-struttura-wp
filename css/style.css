@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    margin: 20px auto;
+    width: 75%;
+    max-width: 1200px;
+}
+
+header {
+    height: 100px;
+    background-color: violet;
+}
+
+.img-container {
+    height: 400px;
+    background-color: rgb(245, 221, 84);
+}
+
+.float-container {
+    height: 500px;
+}
