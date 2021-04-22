@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-
+ /* utility class */
 .fl {
     float: left;
 }
@@ -13,8 +13,9 @@
     display: table;
     clear: both;
 }
+/* end utility class */
 
-.container {
+.container-page {
     margin: 20px auto;
     width: 75%;
     max-width: 1200px;
