@@ -45,28 +45,25 @@ header {
 }
 
 .right-bar,.left-bar {
-    height: 400px;
     width: 20%;
 }
 
-.right-bar {
-    padding: 20px 10px 10px 0;
+.main {
+    width: 60%;
+    padding: 20px 10px;
 }
 
-.main {
-    height: 400px;
-    width: 60%;
-    padding: 20px 10px 10px 10px;
+.right-bar {
+    padding: 20px 10px 20px 0;
 }
 
 .left-bar {
-    padding: 20px 0 10px 10px;
+    padding: 20px 0px 20px 10px;
 }
 
 .content {
     background-color: cornflowerblue;
-    padding: 15px;
-    height: 360px;
+    height: 350px;
 }
 
 footer {
